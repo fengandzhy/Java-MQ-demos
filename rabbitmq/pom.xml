@@ -10,11 +10,11 @@
 		<module>basic-demo</module>
 	</modules>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.rabbitmq/rabbitmq-client -->
+		<!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
 		<dependency>
 		    <groupId>com.rabbitmq</groupId>
-		    <artifactId>rabbitmq-client</artifactId>
-		    <version>1.2.0</version>
+		    <artifactId>amqp-client</artifactId>
+		    <version>5.6.0</version>
 		</dependency>		
 	</dependencies>
 </project>
