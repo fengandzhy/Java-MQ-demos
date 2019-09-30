@@ -8,6 +8,9 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+/**
+ * 它不向队列里发送消息而是向exchange里发送消息
+ * */
 public class Producer {
 	private static final String Exchange_Name="rabbit:mq02:exchange:e01";
 	
